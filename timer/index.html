@@ -1,0 +1,56 @@
+
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Timer</title>
+        <link rel="stylesheet" href="./style.css">
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+    </head>
+    
+    <body class="main">
+        
+        
+        <h1 class="head">Stop Clock</h1>
+        <div class="box">
+        
+        <div class="timer">
+            <p class="hr"id="hour">00</p>
+            <p class ="dot">:</p>
+            <p class="mi"id="min">00</p>
+            <p class="dot">:</p>
+            <p class="sec"id="seconds">00</p>
+        </div>
+    
+        <br>
+        <div class="align">
+            <button class="start sbutton" id="timer-button" >Start</button>
+            <br>
+            <button class="lap" id="ltime">Lap</button>
+            <br>
+            <button class="reset" id="setting">Reset</button>
+        </div>
+    
+        <br>
+    
+        <div class="line">
+            <table>
+                <tr>
+                    <th class="tab">Lap</th>
+                    <th class="tab">Laptime</th>
+                </tr>
+                <tr>
+                    <td class="number" id="lap_no"></td>
+                    <td class="number" id="diff_time"></td>
+                </tr>
+            </table>
+        </div>
+        <br><br>
+        
+    </div>
+    </body>
+    
+    <script type ="module" src="script.js"></script>
+    </html>

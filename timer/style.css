@@ -1,0 +1,111 @@
+.main{
+    width: 500px;
+    height: 500px;
+    padding-left: 450px;
+    background-image: linear-gradient(to bottom left, rgb(255, 255, 255), rgb(117, 118, 118));
+    
+}
+.box{
+    background-image: linear-gradient(to bottom right, rgb(171, 171, 171), rgb(219, 222, 223));
+
+    
+}
+
+.start{
+    justify-content: center;
+    background-color: rgb(48, 24, 156);
+    
+    text-align: center;
+    color: white;
+    width: max-content;
+    font-size: 20px;
+    padding: 12px;
+    cursor: pointer;
+}
+
+.lap{
+    justify-content: center;
+    background-color: rgb(9, 12, 159);
+    
+    text-align: center;
+    color: white;
+    width: max-content;
+    font-size: 20px;
+    padding: 12px;
+    cursor: pointer;
+}
+
+.reset{
+    justify-content: center;
+    background-color: rgb(32, 9, 159);
+    
+    text-align: center;
+    color: white;
+    width: max-content;
+    font-size: 20px;
+    padding: 12px;
+    cursor: pointer;
+}
+
+.head{
+    font-size: 70px;
+    color: rgb(10, 21, 84);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+
+.align{
+    justify-content: center;
+    display: flex;
+    gap: 10px;
+    
+}
+
+.timer{
+    justify-content: center;
+    display:flex;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    gap: 4px;
+}
+
+.line{
+    display: flex;
+    justify-content: center;
+}
+
+.tab{
+    padding-right: 50px;
+    padding-left: 70px;
+    font-size: 30px;
+    color:rgb(10, 21, 84);
+    
+    border-bottom: 5px outset;
+}
+
+.number{
+    justify-content: center;
+    text-align: center;
+    font-size: 23px;
+    gap: 10px;
+}
+
+.hr{
+    font-size: 50px;
+}
+
+.mi{
+    display: flex;
+    font-size: 50px;
+}
+
+.sec{
+    display: flex;
+    font-size: 50px;
+}
+
+.dot{
+    display: flex;
+    font-size: 50px;
+}
